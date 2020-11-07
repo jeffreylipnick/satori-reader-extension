@@ -1,0 +1,10 @@
+  {
+    "name": "Satori Reader Add Known Kanji",
+    "version": "0.1",
+    "description": "Adds functionality to save known words in the Known Kanji list for satorireader.com",
+    "content_scripts": [{
+      "js": ["content.js"],
+      "matches": ["https://www.satorireader.com/*"]
+    }],
+    "manifest_version": 2
+  }
